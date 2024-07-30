@@ -105,6 +105,13 @@
   .IntroContent {
     font-size: 8vw;
     padding-top: 0rem;
+    position: absolute;
+    top: 3rem;
+  }
+  #intro{
+    position: relative;
+    top: -5rem;
+    
   }
   
   .hello {

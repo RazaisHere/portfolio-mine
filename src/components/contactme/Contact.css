@@ -1,0 +1,94 @@
+#contact{
+    width: 100%;
+    max-width: 55rem;
+    margin: 0 auto;
+    text-align: center;
+    /* height: calc(100vh - 4rem); */
+    
+}
+#contact a{
+  text-decoration: none;
+  color: white;
+}
+h1{
+    margin-bottom: 2rem;
+}
+p{
+    font-weight: 200;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+form input {
+    padding: 1rem 2rem;
+    width: 80%;
+    background: rgb(40, 40, 40);
+    align-self: center;
+    border: none;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  form input:focus {
+    outline: 1px solid cyan; /* Add a blue outline on focus */
+    outline-offset: -2px; /* Move the outline inside the input */
+  }
+  form textarea {
+    padding: 1rem 2rem;
+    width: 80%;
+    height: 150px;
+    background: rgb(40, 40, 40);
+    align-self: center;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    resize: vertical; /* Add a vertical resize handle */
+  }
+  
+  form textarea:focus {
+    outline: 1px solid cyan; /* Add a blue outline on focus */
+    outline-offset: -2px; /* Move the outline inside the textarea */
+  }
+form input:last-child{
+    padding-bottom: 6rem;
+    max-width: 50rem;
+    
+}
+.submitbtn{
+    padding: 1rem 3rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    background-color: #f5f5f5;
+    color: #000;
+    margin: 1rem auto 0 auto;
+    font-size: 1rem;
+
+}
+.submitbtn:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s  ease-in-out;
+}
+.icon{
+    display: flex;
+    width: auto;
+    height: auto;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    gap: 25px;
+    font-size: 1.7rem;
+    margin: 5rem 0 5rem 0;
+    
+}
+#icon1:hover, #icon2:hover,#icon3:hover {
+    transform: scale(1.2); /* Zoom in by 20% */
+    transition: transform 0.2s ease-in-out; /* Add a smooth transition */
+  }
+  

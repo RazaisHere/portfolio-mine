@@ -1,0 +1,121 @@
+#intro {
+  height: calc(100vh - 4rem);
+  width: 100%;
+  max-width: 85rem;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+}
+
+.IntroContent {
+  height: 100vh;
+  width: 50%;
+  padding: 2rem;
+  font-size: 3rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -5rem;
+  gap: 10px;
+}
+
+.Bg {
+  position: absolute;
+  object-fit: cover;
+  height: 90vh;
+  width: 50%; /* Ensure the image fits half the container */
+  z-index: -1;
+  top: -1rem;
+  right: -3rem;
+}
+
+.hello {
+  font-size: 1.75rem;
+  font-weight: 100;
+}
+
+.IntroName {
+  color: cyan;
+}
+
+.IntroPara {
+  font-size: medium;
+  font-weight: 200;
+  margin-bottom: 1rem;
+}
+
+.Hireme {
+  font-family: "Poppins", sans-serif;
+  padding: 1rem 1.5rem;
+  border-radius: 2rem;
+  background-color: #f5f5f5;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  cursor: pointer;
+  gap: 0.5rem;
+}
+
+/* Remove outline for all focusable elements */
+*:focus {
+  outline: none;
+}
+
+/* Disable text selection for specific elements */
+.no-blink,
+.no-blink * {
+  user-select: none; /* Prevents text selection */
+  cursor: default; /* Changes cursor to default */
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 840px) {
+  .Bg {
+    right: -10vw;
+    width: 100%;
+    height: 100vh;
+    object-fit: contain;
+  }
+  
+  .IntroContent {
+    width: 100%;
+    font-size: 5vw;
+    margin-top: 0;
+    height: 90vh;
+  }
+  
+  .hello {
+    font-size: 4.5vw;
+  }
+
+  .IntroPara {
+    font-size: 3vw;
+  }
+
+  .Hireme {
+    font-size: 2.6vw;
+  }
+}
+
+/* Additional media query for even smaller screens */
+@media screen and (max-width: 480px) {
+  .IntroContent {
+    font-size: 8vw;
+    padding-top: -2rem;
+  }
+  
+  .hello {
+    font-size: 6vw;
+  }
+  
+  .IntroPara {
+    font-size: 5vw;
+  }
+
+  .Hireme {
+    font-size: 4vw;
+  }
+}

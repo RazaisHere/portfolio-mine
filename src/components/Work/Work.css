@@ -1,0 +1,75 @@
+#Work {
+    min-height: calc(100vh - 4rem);
+    max-width: 68rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .workstitle {
+    margin-bottom: 1rem;
+  }
+  
+  .workdesc {
+    margin-bottom: 2rem;
+  }
+  
+  .project-item .card {
+    width: 100%;
+  }
+  .no-blink,
+.no-blink * {
+  user-select: none; /* Prevents text selection */
+  cursor: default; /* Changes cursor to default */
+}
+  
+  .project-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    
+  }
+  
+  .project-item .card-body {
+    text-align: center;
+  }
+  #img1 img{
+    width: 334px;
+    height: 246px;
+  }
+.project-item{
+    margin-top: 1rem;
+}
+.card{
+    border: 1px solid cyan;
+    box-shadow: 5px 5px 6px rgba(200,220,235,0.3);
+    background-color: rgb(30, 30, 30);
+    color: white;
+    border-radius: 10px;
+    padding-bottom: 2rem;
+}
+.card:hover{
+  transform: scale(1.05);
+  transition: 0.2s ease-in-out;
+  z-index: 20;
+ 
+}
+.btnn{
+ 
+  padding: .8rem 2rem;
+  border-radius: 2rem;
+  background-color: #f5f5f5;
+  border: none;
+  color: black;
+  text-decoration: none;
+  font-size: 1rem;
+  cursor: pointer;
+  gap: 1rem;
+  outline: none;
+}
+.card-text{
+  margin-bottom: 2rem;
+}

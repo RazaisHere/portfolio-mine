@@ -40,7 +40,7 @@ const skill = () => {
           <div className="skillbar">
             <img src={Reactt} alt="" className="skillbarimg3" />
             <div className="skillbartext">
-              <h3>React.js Development</h3>
+              <h3>React.js </h3>
               <p>
                 I develop dynamic and scalable web applications using React.js,
                 leveraging its component-based architecture to create efficient

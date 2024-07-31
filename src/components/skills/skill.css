@@ -79,18 +79,37 @@
         font-size: 6vw;
     }
     .skillbarimg1{
-        height: 3rem;
-        width: 3rem;
+        height: 6rem;
+        display: flex;
+        /* justify-content: center; */
+        /* align-items: center; */
+        align-self: center;
+        /* text-align: center;*/
+        margin-left: 1rem;
     }
     .skillbarimg2{
-        height: 3rem;
-        margin-left: 1rem;
-        width: 3rem;
+        height: 8rem;
+        display: flex;
+        
+        margin-left: 2.5rem;
+      
     }
     .skillbarimg3{
-        height: 3rem;
-        width: 3rem;
-        margin-right: 3rem;
+        height: 8rem;
+        display: flex;
+        
+        
+        
     }
-    
+    .skillbar{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        justify-content: center;
+        align-self: center;
+        align-items: center;
+    }
+    .skillbar h3{
+        text-align: center;
+    }
 }

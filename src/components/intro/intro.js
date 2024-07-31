@@ -1,7 +1,7 @@
 import React from "react";
 import "./intro.css";
 import Bg from "../../assets/backgrundimg.jpg";
-
+import CV from "../../assets/CVUpdated.pdf";
 const Intro = () => {
   return (
     <div>
@@ -17,10 +17,10 @@ const Intro = () => {
             dedicated to creating user-friendly and visually appealing websites.
           </p>
 
-          <a href="#contact">
+          <a href={CV} download="Ali_Raza_CV.pdf">
             <button className="Hireme">
               <i className="fa-solid fa-briefcase"></i>
-              Hire Me
+              Download CV
             </button>
           </a>
         </div>

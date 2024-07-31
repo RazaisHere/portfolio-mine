@@ -3,11 +3,16 @@ import "./Work.css";
 import TODO from "../../assets/TODO.PNG";
 import Quiz from "../../assets/Quiz.PNG";
 import QR from "../../assets/QRR.PNG";
+import Weather from "../../assets/weather.PNG";
 
 const Work = () => {
   const style = {
     width: "100%",
     height: "245px",
+  };
+  const style2 = {
+    width: "100%",
+    height: "225px",
   };
 
   return (
@@ -93,6 +98,33 @@ const Work = () => {
                   </p>
                   <a
                     href="https://razaishere.github.io/QR-Code-Generator/"
+                    className="btnn mt-3 mb-3"
+                  >
+                    Visit Site
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-12 col-md-6 col-lg-4 mb-4">
+            <div className="project-item">
+              <div className="card">
+                <a href="https://razaishere.github.io/weather-app/">
+                  <img
+                    src={Weather}
+                    style={style2}
+                    className="card-img-top"
+                    alt="QR App"
+                  />
+                </a>
+                <div className="card-body">
+                  <h5 className="card-title">Weaher App</h5>
+                  <p className="card-text">
+                    A simple and efficient app for checking Weather , built with
+                    React js.
+                  </p>
+                  <a
+                    href="https://razaishere.github.io/weather-app/"
                     className="btnn mt-3 mb-3"
                   >
                     Visit Site

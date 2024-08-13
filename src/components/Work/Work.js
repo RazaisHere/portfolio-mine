@@ -4,6 +4,8 @@ import TODO from "../../assets/TODO.PNG";
 import Quiz from "../../assets/Quiz.PNG";
 import QR from "../../assets/QRR.PNG";
 import Weather from "../../assets/weather.PNG";
+import RPG from "../../assets/RPG.PNG";
+import CG from "../../assets/CG.PNG";
 
 const Work = () => {
   const style = {
@@ -125,6 +127,60 @@ const Work = () => {
                   </p>
                   <a
                     href="https://razaishere.github.io/weather-app/"
+                    className="btnn mt-3 mb-3"
+                  >
+                    Visit Site
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-12 col-md-6 col-lg-4 mb-4">
+            <div className="project-item">
+              <div className="card">
+                <a href="https://razaishere.github.io/RandomPasswordGenerator/">
+                  <img
+                    src={RPG}
+                    style={style2}
+                    className="card-img-top"
+                    alt="QR App"
+                  />
+                </a>
+                <div className="card-body">
+                  <h5 className="card-title">Password Generator App</h5>
+                  <p className="card-text">
+                    A simple Random Password Generator app build with HTML,CSS
+                    and Javascript.
+                  </p>
+                  <a
+                    href="https://razaishere.github.io/RandomPasswordGenerator/"
+                    className="btnn mt-3 mb-3"
+                  >
+                    Visit Site
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-12 col-md-6 col-lg-4 mb-4">
+            <div className="project-item">
+              <div className="card">
+                <a href="https://razaishere.github.io/ColorGuesser/">
+                  <img
+                    src={CG}
+                    style={style2}
+                    className="card-img-top"
+                    alt="QR App"
+                  />
+                </a>
+                <div className="card-body">
+                  <h5 className="card-title">Color Guesser App</h5>
+                  <p className="card-text">
+                    A simple color guess quiz app build with HTML,CSS and
+                    Javascript.
+                  </p>
+                  <a
+                    href="https://razaishere.github.io/ColorGuesser/"
                     className="btnn mt-3 mb-3"
                   >
                     Visit Site

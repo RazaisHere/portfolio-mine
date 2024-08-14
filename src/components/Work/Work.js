@@ -149,8 +149,7 @@ const Work = () => {
                 <div className="card-body">
                   <h5 className="card-title">Password Generator App</h5>
                   <p className="card-text">
-                    A simple Random Password Generator app build with HTML,CSS
-                    and Javascript.
+                    Password Generator app build with HTML,CSS and Javascript.
                   </p>
                   <a
                     href="https://razaishere.github.io/RandomPasswordGenerator/"

@@ -39,7 +39,7 @@ const Contactme = () => {
           <a href="https://www.instagram.com/alinotraza/?hl=en">
             <i class="fa-brands fa-instagram" id="icon2"></i>
           </a>
-          <a href="https://discord.com/channels/@me/1267021954117009441/1267785284884365323">
+          <a href="https://www.linkedin.com/in/ali-raza-9970412bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
             <i class="fa-brands fa-linkedin-in" id="icon3"></i>
           </a>
         </div>

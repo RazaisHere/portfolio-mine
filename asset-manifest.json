@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio-mine/static/css/main.7603ee14.css",
-    "main.js": "/portfolio-mine/static/js/main.14caeedd.js",
+    "main.css": "/portfolio-mine/static/css/main.a7496f86.css",
+    "main.js": "/portfolio-mine/static/js/main.2f1d3b53.js",
     "static/media/weather.PNG": "/portfolio-mine/static/media/weather.8dd70790ca2d729138c6.PNG",
+    "static/media/currency.PNG": "/portfolio-mine/static/media/currency.d01ac7f72e2997dc2556.PNG",
+    "static/media/Ecom.PNG": "/portfolio-mine/static/media/Ecom.b8bbaa146c727b6097e4.PNG",
     "static/media/Quiz.PNG": "/portfolio-mine/static/media/Quiz.df93ab3832d824c64ea7.PNG",
     "static/media/RPG.PNG": "/portfolio-mine/static/media/RPG.4254e99b85a606f318c3.PNG",
     "static/media/CG.PNG": "/portfolio-mine/static/media/CG.1875ba8779d233cb4b3e.PNG",
@@ -14,11 +16,11 @@
     "static/media/React.jpg": "/portfolio-mine/static/media/React.e3bb52665f8c6b21625d.jpg",
     "static/media/Bootstrap.jpg": "/portfolio-mine/static/media/Bootstrap.a8b3ad15a9cfbf3fd113.jpg",
     "index.html": "/portfolio-mine/index.html",
-    "main.7603ee14.css.map": "/portfolio-mine/static/css/main.7603ee14.css.map",
-    "main.14caeedd.js.map": "/portfolio-mine/static/js/main.14caeedd.js.map"
+    "main.a7496f86.css.map": "/portfolio-mine/static/css/main.a7496f86.css.map",
+    "main.2f1d3b53.js.map": "/portfolio-mine/static/js/main.2f1d3b53.js.map"
   },
   "entrypoints": [
-    "static/css/main.7603ee14.css",
-    "static/js/main.14caeedd.js"
+    "static/css/main.a7496f86.css",
+    "static/js/main.2f1d3b53.js"
   ]
 }
